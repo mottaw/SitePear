@@ -1,19 +1,31 @@
 body{
     background-color: #1a222e;
 }
-.menu{
+.menuservicos{
     -webkit-text-fill-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 .titulo{
     -webkit-text-fill-color: white;
 }
-.menu input{
+.menuservicos input{
+    display: inline-block;    
+}
+.menuservicos label{
+    margin-left: 5px;
+    cursor: pointer;
+}
+.info{
     display: inline-block;
-    margin-block: 10px;
+}
+.busca:checked ~ .conteudo .busca{
+    display: block;
 }
 .entrarcontat{
-    width: 2000px;
-    height: 700px;
+    width: 500px;
+    height: 500px;
     text-align: center;
     -webkit-text-fill-color: white;
     margin-top: 200px;
@@ -21,9 +33,9 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    margin-left:200px;
-    margin-right:200px;
-    margin-top: 600px;
+    margin-left:400px;
+    margin-right:400px;
+    margin-top: 200px;
     margin-bottom: 50px;
     border-radius: 40px;
 }
@@ -31,11 +43,19 @@ body{
     display: block;
     margin-bottom: 10px;
 }
-input{
-    background-color: rgb(42, 180, 42);
+.botaocontat{
+    background-color: #216239;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display:inline-block;
+}
+.botaocontat a{
+    text-decoration: none;
     color: white;
-    padding: 12px 45px;
-    border: none;
-    cursor:pointer;
-
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.containersevicos{
+    gap: 50px;
+    margin: 0 auto;
 }
