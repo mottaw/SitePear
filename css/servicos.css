@@ -7,30 +7,35 @@ body{
 .titulo{
     -webkit-text-fill-color: white;
 }
-.menu label{
+.menu input{
     display: inline-block;
     margin-block: 10px;
 }
 .entrarcontat{
+    width: 2000px;
+    height: 700px;
     text-align: center;
     -webkit-text-fill-color: white;
     margin-top: 200px;
     background-image: url("https://estaticos.animaeducacao.com.br/medias/20250514152622/-_Imagem_-_An%C3%A1lise_e_Desenvolvimento_de_Sistemas_o_que_faz_o_profissional.webp");
     background-size: cover;
-    padding: 200px 30px;
     background-repeat: no-repeat;
     background-position: center;
-    margin-left:400px;
-    margin-right:400px;
-    margin-top: 200px;
+    margin-left:200px;
+    margin-right:200px;
+    margin-top: 600px;
     margin-bottom: 50px;
     border-radius: 40px;
+}
+.entrarcontat label{
+    display: block;
+    margin-bottom: 10px;
 }
 input{
     background-color: rgb(42, 180, 42);
     color: white;
-    padding: 12px 25px;
+    padding: 12px 45px;
     border: none;
     cursor:pointer;
-    display: none;
+
 }
