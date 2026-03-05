@@ -1,0 +1,48 @@
+.header {
+  background: linear-gradient(90deg, rgb(158, 158, 158) 0%, rgb(255, 255, 255), 50%, rgb(156, 156, 156) 100%);
+    background-color: rgb(207, 207, 207);
+    color: white;
+}
+
+.container {
+    width: 90%;
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+.logo img {
+  height: 100px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.language-selctor {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer
+}
+
+.flag{
+  width: 24px;
+  height: 16px;
+  object-fit: cover;
+
+}
+
+.arrow {
+  font-size: 16px;
+  color: white;
+}
