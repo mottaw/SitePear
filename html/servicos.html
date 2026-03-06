@@ -11,52 +11,80 @@
 <header class="header">
         <div class="container nav-container">
         <div class="logo">
-            <img src="../imgs/LogoPEAR.png" alt="loguinho">
+            <a href="main.html"><img src="../imgs/LogoPEAR.png" alt="loguinho"></a>
         </div>
 
         <nav>
             <ul class="menu">
                 <li><a href="quemsomos.html">Quem Somos</a></li>
                 <li><a href="#">Serviços</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="contato.html">Contato</a></li>
             </ul>
         </nav>
 
         <div class="language-selector">
-            <img src="imgs/brasil.png" class="flag">
+            <img src="../imgs/brasil.png" class="flag">
             <span class="arrow">▾</span>
             </div>
     </header>
-    <h1 class="titulo">Serviços:</h1>
-        <div class="menu">
+    <div class="containerservicos">
+        <h1 class="titulo">Serviços:</h1>
+        <div class="menuservicos">
             <div>
-            <input type="radio" name="menu" id="busca" checked>
-            <label for="busca">Busca UX</label>
+                <input type="radio" name="menu" id="busca" checked>
+                <label for="busca">Busca UX</label>
             </div>
 
             <div>
-            <input type="radio" name="menu" id="consul">
-            <label for="consul">Consultoria</label>
+                <input type="radio" name="menu" id="consul">
+                <label for="consul">Consultoria</label>
             </div>
 
             <div>
-            <input type="radio" name="menu" id="design">
-            <label for="design">Design</label>
+                <input type="radio" name="menu" id="design">
+                <label for="design">Design</label>
             </div>
 
             <div>
-            <input type="radio" name="menu" id="dev">
-            <label for="dev">Desenvolvimento</label>
+                <input type="radio" name="menu" id="dev">
+                <label for="dev">Desenvolvimento</label>
             </div>
 
             <div>
-            <input type="radio" name="menu" id="projetos">
-            <label for="projetos">Projetos</label>
+                <input type="radio" name="menu" id="projetos">
+                <label for="projetos">Projetos</label>
             </div>
+
+        <div class="conteudo">
+            <div class="info busca">
+                <h2>Busca UX</h2>
+                <p>texto explicando Busca UX...</p>
+            </div>
+
+            <div class="info consul">
+                <h2>Consultoria</h2>
+                <p>texto explicando Consultoria...</p>
+            </div>
+
+            <div class="info design">
+                <h2>Design</h2>
+                <p>texto explicando Design...</p>
+            </div>
+
+            <div class="info dev">
+                <h2>Desenvolvimento</h2>
+                <p>texto explicando Desenvolvimento...</p>
+            </div>
+
+            <div class="info projetos">
+                <h2>Projetos</h2>
+                <p>texto explicando Projetos...</p>
+            </div>
+        </div>
+    </div>
     <div class="entrarcontat">
         <h1>Aplique agora, expanda já</h1>
-        <input type="submit" name="botao" id="botaocontat">
-        <label for="botaocontat">Entrar em Contato</label>
+        <div class="botaocontat"><a href="contato.html">Entrar em contato</a></div>
     </div>
     <footer></footer>
 </body>
