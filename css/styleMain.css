@@ -1,14 +1,8 @@
-body {
-  background-color: #1E2836;
-  margin: 0;
-  font-family: Arial, sans-serif;
-  color: white;
-}
+
 
 .header {
   background: linear-gradient(90deg, rgb(158, 158, 158) 0%, rgb(255, 255, 255), 50%, rgb(156, 156, 156) 100%);
-    background-color: rgb(207, 207, 207);
-    color: white;
+  color: white;
 }
 
 .container {
@@ -49,23 +43,58 @@ body {
 
 /* calma ai agora, vou de body */
 
-.oldpc {
-    position: relative;
-    display: block;
-    height: 90vh;
-    background-image: url("../imgs/imageComputer.jpeg");
-    background-size: cover;
-    background-position: center;
-
-    color: white;
-    text-decoration: none;
-    overflow: hidden;
+.servicos{
+  padding-top: 150px;
+  padding-bottom: 150px;
+  margin-top: 100px;
+  background-color: #1E2836;
 }
 
-.oldpc-overlay {
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.5);
+body {
+  background-color: #1E2836;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.button-hero{
+  background-color: rgb(35, 73, 145);
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  font-size: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  
+}
+
+.hero {
+    background-image: url(../imgs/giffundo.gif);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding: 100px;
+}
+
+.hero-texto{
+  max-width: 400px;
+}
+
+.hero-texto h1{
+  font-size: 48px;
+}
+
+.hero-texto p{
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+.hero-img {
+    width: 900px;
+    max-width: 100%;
+    height: auto;
+    filter: drop-shadow(0px 20px 40px rgba(0,0,0,0.4));
 }
 
 .footer {
@@ -75,12 +104,13 @@ body {
 }
 
 .text {
+    font-family: "Roboto" sans-serif;
     text-align: center;
     margin-top: 200px;
     margin-bottom: 200px;
 }
 
-.language-selctor {
+.language-selector {
   display: flex;
   align-items: center;
   gap: 6px;
